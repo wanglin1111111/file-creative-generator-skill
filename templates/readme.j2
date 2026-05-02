@@ -1,0 +1,27 @@
+# {{ project_name }}
+
+{{ description }}
+
+## 功能特性
+
+{% for feature in features %}
+- {{ feature }}
+{% endfor %}
+
+## 安装指南
+
+```bash
+pip install {{ project_name }}
+```
+
+## 使用方法
+
+```python
+from {{ project_name }} import Generator
+
+generator = Generator()
+```
+
+## 许可证
+
+MIT

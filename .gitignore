@@ -1,0 +1,54 @@
+# 虚拟环境
+venv/
+.env
+.env.local
+.env.*.local
+
+# 依赖目录
+node_modules/
+__pycache__/
+.pytest_cache/
+.tox/
+.eggs/
+*.egg-info/
+
+# 编译输出
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+logs/
+
+# 数据库文件
+*.sqlite
+*.db
+
+# 构建产物
+dist/
+build/
+*.egg
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# CI/CD
+.github/workflows/
